@@ -1,0 +1,240 @@
+<html>
+
+<head>
+		<meta charset="utf-8">
+		<title>Fırat ATALAY</title>
+	<link rel="stylesheet" type="text/css" href="üstmenü.css" />
+	<style>
+		a{ 
+			color:white;
+			font-face:tahoma;
+		}
+	
+	</style>
+	
+</head>
+
+<body bgcolor="#EAEAEA" >
+	<div class=header> 
+	<br>
+	<br>
+	<br>
+	<div class=logo style="float:right;"> <img src="resim/logo.png" width="600" height="130" alt="dededassa" </div>
+	</div>
+	
+	
+	
+		</div>
+		<div class=üstmenü>
+		<ul>
+			<li> <a href="index.asp"><img src="resim/anasayfa.png"></a> </li>
+			<li> <a href="kisiler.asp">Kisiler</a> </li>
+			<li> <a href="fotograflar.asp">Fotoğraflar</a> </li>
+			<li> <a href="videolar.asp">Videolar </a> </li>
+			<li> <a href="kimnerede.asp">Kim,Nerede, Ne Yapıyor? </a> </li>
+			<li> <a href="harita.asp?x=3375&y=4445&zoom=1100"> Harita </a> </li>
+			<li> <a href="forum.asp">Forum</a> </li>
+			<li> <a href="kayit.htm"> Kayıt </a> </li>
+			<li> <a href="giris.htm"> Panele Giriş</a> </li>
+			
+		</ul>
+		<div style="float:right;">
+		<ul>
+		
+		<li> <a href="https://www.instagram.com/firatatalay34/"> <img src="resim/instagram.png" /></a> </li>
+		<li> <a href="https://www.facebook.com/firatatalay34"> <img src="resim/facebook.png" /></a> </li>
+		
+		</ul>
+		
+		</div>
+	
+		</div>
+	
+	<div class=main style="height:800px;">
+	<form action="kayit.asp" method="post" >
+	<br>
+	<center><h3> Kayıt </h3> </center>
+	<br>
+	
+	
+	<center><fieldset>
+	   <table cellspacing="15px">
+      <tr>
+         <td>Adınız:</td>
+         <td><input type="text" name="Ad"></td>
+      </tr>
+      <tr>
+         <td>Soyadınız:</td>
+         <td> <input type="text" name="Soyad"></td>
+      </tr>
+	  <tr>
+         <td>Cinsiyetiniz:</td>
+         <td>
+		 
+				<input type="radio" name="Cins" checked="" value="Erkek"> Erkek
+				<input type="radio" name="Cins" value="Kadın"> Kadın
+		
+		</td>
+	   </tr>
+	   
+			<tr>
+				<td>Kullanıcı Adınız:</td>
+				<td><input type="text" name="Username"></td>
+			</tr>
+	  
+			<tr>
+				<td>Şifreniz:</td>
+				<td><input type="password" name="Pass"></td>
+			</tr>
+				<tr>
+				<td>Mail Adresiniz:</td>
+				<td><input type="text" name="Mail"></td>
+				</tr>
+				<tr>
+				<td>Mail Adresiniz Tekrar:</td>
+				<td><input type="text" name="Mailtekrar"></td>
+				</tr>
+	  <tr>
+         <td>İlgi Alanlarınız:</td>
+         <td>
+				 
+					Basketbol <input type="checkbox" name="Hobi">
+					Futbol <input type="checkbox" name="Hobi">
+					Voleybol <input type="checkbox" name="Hobi"><br>
+					Kampçılık <input type="checkbox" name="Hobi">
+					Dağcılık <input type="checkbox" name="Hobi">
+					Seyahat <input type="checkbox" name="Hobi">
+					Bisiklet <input type="checkbox" name="Hobi">
+				
+		 </td>
+      </tr>
+	  <tr>
+         <td>Okuduğunuz Okul:</td>
+         <td>
+		 
+			<select name="Muhendislik">
+			<option value="kbu">Karabük Üniversitesi</option>
+			<option value="iu">İstanbul Üniversitesi</option>
+			<option value="mü">Marmara Üniversitesi</option>
+			<option value="odtu">Orta Doğu Teknik Üniversitesi</option>
+			</select>
+			
+		</td>
+      </tr>
+	  
+	  
+	  <tr>
+         <td>Okuduğunuz Bölüm:</td>
+         <td>
+		
+			<select name="Fakulte">
+			<option value="bilg">Bilgisayar Mühendisliği</option>
+			<option value="elk">Elektrik-Elektronik Mühendisliği </option>
+			<option value="mak">Makine Mühendisliği </option>
+			<option value="met">Metalurji ve Malzeme Mühendisliği </option>
+			<option value="end">Endüstri Mühendisliği </option>
+			<option value="oto">Otomotiv Mühendisliği </option>
+			</select>
+			
+		</td>
+      </tr>
+	  <tr>
+         <td>Yaşadığınız Şehir:</td>
+         <td>
+		 
+			<select name="Sehir">
+			<option value="ist">İstanbul</option>
+			<option value="iz">İzmir</option>
+			<option value="ank">Ankara</option>
+			</select>
+			
+		</td>
+      </tr>
+	  
+	  
+	  
+	  <tr>
+         <td>Adresiniz:</td>
+         <td>
+			<textarea name="Adres" rows="7" cols="23">Adres bilgilerinizi giriniz.</textarea>
+</td>
+      </tr>
+	   <tr>
+         <td>Gizli Soru:</td>
+         <td>
+		 
+			<select name="Gizliyanit">
+			<option value="q1">İlkokul öğretmeninizin adı</option>
+			<option value="q2">Annenizin kızlık soyadı</option>
+			<option value="q3">En sevdiğiniz renk</option>
+			</select>
+		
+		</td>
+      </tr>
+	   <tr>
+         <td>Gizli Yanıt:</td>
+         <td>
+		 <input type="text" name="Yanit">
+		</td>
+      </tr>
+	  <tr>
+         <td> </td>
+         <td>
+			<input style="width:100px;"action="index.asp" type="submit" value="  Kaydol  " />
+		 </td>
+      </tr>
+	  
+	  
+
+   </table>
+	</fieldset>
+	
+	</center>
+	</form>
+	</div>
+	
+	
+	
+	
+	
+	<div class="referanslarım"> 
+		  <center>
+		  <h3> Referanslarım </h3>
+		  <br>
+		
+		 <table width="1000" height  cellspacing="5" cellpadding="5">
+		 <tr>
+		 <td> <img src="resim/ref.png" /> </td>
+		 <td> <img src="resim/ref.png" /> </td>
+		 <td> <img src="resim/ref.png" /> </td>
+		 <td> <img src="resim/ref.png" /> </td>
+		 <td> <img src="resim/ref.png" /> </td>
+		 </tr>
+		 </table>
+		 </center>
+		 
+	</div>
+	
+	
+	
+
+	<div class=footer>
+		<ul>	
+		<li> <a href="#"> Gizlilik Koşulları </a> </li>
+		<li> <a href="#"> Yardım Merkezi </a> </li>
+		<li> <a href="iletisim.htm"> İletişim </a> </li>
+		<li> <a href="benkimim.htm"> Ben Kimim? </a> </li>
+		<li> <a href="#">  </a> </li>
+		</ul>
+	
+	<div style="clear:both;">
+	<center> 
+	 <hr> Copyright © 2018 TÜM HAKLARI SAKLIDIR. <hr>	</center>
+	</div>
+	
+
+</body>
+
+
+
+<html>
